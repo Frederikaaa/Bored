@@ -1,0 +1,21 @@
+print("Hello")
+need = input("Are you feeling down right now?")
+if need == "yes" or need == "Yes":
+  hug = input("Will a virtual hug help you feel better?")
+  if hug == "yes" or "Yes":
+    print(" *hugs tightly* ")
+    print("There you go.")
+    better = input("Do you feel better now?")
+    if better == "yes" or "Yes":
+      print("Great, have a nice day!")
+    if better == "no" oe better == "No":
+      print("I am sorry to hear that, maybe a cup of tea would brighten the world a little bit <3")
+    else:
+      print("I apologize, but so far i can only recognize yes and no in your language. I'll soon get better and we can chate then.")
+  if hug == "no" or hug == "No":
+    print("That's fine, just remember that everything will pass, sooner or later.")
+  else:
+print("I apologize, but so far i can only recognize yes and no in your language. I'll soon get better and we can chate then.")
+if need == "no" or need == "No":
+  pass
+    
